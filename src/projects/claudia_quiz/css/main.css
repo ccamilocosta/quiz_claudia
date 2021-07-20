@@ -1,0 +1,113 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: rgb(22, 22, 22);
+}
+
+/* body {
+  margin: 0;
+  font-size: 16px;
+  background-color: $primary-color;
+  font-family: $font;
+} */
+  
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  color: rgb(17, 17, 17);
+  padding: 8px;
+  font-size: 24px;
+  letter-spacing: 8px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+p{
+  color: #000;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 217, 0, 0.911);
+  text-align: center;
+  position: absolute;
+  
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+/* .btn {
+  padding: $spacing 45px;
+  background-color: $third-color;
+  color: $text-color;
+  border: none;
+  border-radius: 10px;
+  font-family: $font;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+} */
+/* 
+.nav {
+  width: 100%;
+  background-color:rgb(165, 117, 14);
+
+  
+  }  */
+
+  .giraff {
+    border-radius: 80%;
+  }
+
+  .submitbuttom {
+    width: 20%;
+    margin-bottom: 30px;
+    height:50px;
+    border: none;
+    font-size: 20pt;
+    font-variant: small-caps;
+    background-color: rgb(56, 4, 36);
+    border-radius: 5px;
+    font-weight: 700;
+    color:rgb(238, 231, 238);
+
+  }
